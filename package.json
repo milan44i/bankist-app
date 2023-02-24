@@ -1,0 +1,26 @@
+{
+  "name": "bankist-app",
+  "version": "1.0.0",
+  "description": "app for transfering money and taking loans",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milan44i/bankist-app.git"
+  },
+  "author": "Milan Stankovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milan44i/bankist-app/issues"
+  },
+  "homepage": "https://github.com/milan44i/bankist-app#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
